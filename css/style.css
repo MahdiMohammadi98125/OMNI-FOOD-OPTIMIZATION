@@ -64,6 +64,25 @@
 .icon-mobile-nav[alt="name-close"] {
   display: none;
 }
+
+/* sticky navigation */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2.1rem 3.2rem rgba(0, 0, 0, 0.03);
+  width: 100%;
+  z-index: 9999;
+  height: 8rem;
+}
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
 /****************/
 /* Hero Section */
 /****************/
