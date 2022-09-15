@@ -118,7 +118,7 @@ Instead 1rem = 1em = 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.7s;
+    transition: all 0.5s;
     transform: translateX(100%);
     /* Hide Navigation */
     /* No transition allowed */
@@ -139,10 +139,10 @@ Instead 1rem = 1em = 16px;
     visibility: visible;
     transform: translateX(0);
   }
-  .nav-open .icon-mobile-nav[alt="name-close"] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
-  .nav-open .icon-mobile-nav[alt="name-menu"] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
   .main-nav-list {

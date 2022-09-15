@@ -61,7 +61,7 @@
   width: 3.4rem;
   height: 3.4rem;
 }
-.icon-mobile-nav[alt="name-close"] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
